@@ -1,0 +1,49 @@
+> The YI Smart Kami Vision com.kamivision.yismart application through
+> 1.0.0_20231219 for Android allows a remote attacker to execute
+> arbitrary JavaScript code via an implicit intent to the
+> com.ants360.yicamera.activity.WebViewActivity component.
+>
+> ------------------------------------------
+>
+> [VulnerabilityType Other]
+> CWE-94: Improper Control of Generation of Code ('Code Injection')
+>
+> ------------------------------------------
+>
+> [Vendor of Product]
+> Kami Vision
+>
+> ------------------------------------------
+>
+> [Affected Product Code Base]
+> YI Smart Kami Vision 'com.kamivision.yismart' - Version: 1.0.0_20231219
+>
+> ------------------------------------------
+>
+> [Affected Component]
+> Exported activity 'com.ants360.yicamera.activity.WebViewActivity'
+>
+> ------------------------------------------
+>
+> [Attack Type]
+> Remote
+>
+> ------------------------------------------
+>
+> [Impact Code execution]
+> true
+>
+> ------------------------------------------
+>
+> [Attack Vectors]
+> Execute arbitrary JavaScript within the app's context via a malicious application with no permissions.
+>
+> ------------------------------------------
+>
+> [Reference]
+> https://play.google.com/store/apps/details?id=com.kamivision.yismart
+> https://github.com/actuator/yi/blob/main/V1.0.0_20231219.gif
+> ------------------------------------------
+>
+> [Discoverer]
+> Edward Warren
